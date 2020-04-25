@@ -1,9 +1,9 @@
 // Checkout my channel https://youtube.com/c/HKBHD to view more cool videos and projects
 
 #include <SoftwareSerial.h>
-SoftwareSerial Direction(4,5);
+SoftwareSerial Direction(4,5); // (RX,TX)
 
-#define SPEED 90
+#define SPEED 90 // Maximum value is 255
 
 const int lb = 8;
 const int lf = 9;
